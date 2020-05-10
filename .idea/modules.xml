@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-own-douban.iml" filepath="$PROJECT_DIR$/my-own-douban.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-commons/my-own-douban-commons.iml" filepath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-commons/my-own-douban-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/my-own-douban-mapper.iml" filepath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/my-own-douban-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/my-own-douban-model.iml" filepath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/my-own-douban-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-server.iml" filepath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/my-own-douban-service.iml" filepath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/my-own-douban-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/my-own-douban-web.iml" filepath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/my-own-douban-web.iml" />
+    </modules>
+  </component>
+</project>
