@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 public class HomeCommentService {
     @Autowired
     CommentMapper commentMapper;
+
     public Comment getCommentByMid(Integer mid) {
         return commentMapper.getCommentByMid(mid);
     }
-
 }
