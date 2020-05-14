@@ -1,6 +1,8 @@
 package com.mmt.douban.model;
 
-public class Director {
+import java.io.Serializable;
+
+public class Director implements Serializable {
     private Integer id;
 
     private String image;

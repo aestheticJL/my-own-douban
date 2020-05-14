@@ -1,6 +1,8 @@
 package com.mmt.douban.model;
 
-public class Writer {
+import java.io.Serializable;
+
+public class Writer implements Serializable {
     private Integer id;
 
     private String image;

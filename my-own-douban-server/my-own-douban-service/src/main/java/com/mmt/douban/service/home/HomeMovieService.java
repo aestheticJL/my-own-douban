@@ -12,14 +12,13 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-@CacheConfig(cacheNames = "c1")
 public class HomeMovieService {
     @Autowired
     MovieMapper movieMapper;
     @Autowired
     CommentMapper commentMapper;
 
-    @Cacheable(key = "#type")
+    @Cacheable(cacheNames = "home",key = "#type")
     public List<Movie> getMovieByType(String type) {
         if ("其他".equals(type)) {
             return movieMapper.getOtherMovie();
@@ -30,22 +29,23 @@ public class HomeMovieService {
         }
     }
 
+    @Cacheable(cacheNames = "movie",key = "#id",unless = "#result==null")
     public Movie getMovieAllInfById(Integer id) {
         return movieMapper.getMovieAllInfById(id);
     }
 
-    @Cacheable(key = "getMethodName()")
+    @Cacheable(cacheNames = "home",key = "'HighScoreMovie'",unless = "#result==null")
     public List<Movie> getHighScoreMovie() {
         return movieMapper.getHighScoreMovie();
     }
 
-    @Cacheable(key = "getMethodName()")
+    @Cacheable(cacheNames = "home",key = "'NewCommentMovie'",unless = "#result==null")
     public List<Movie> getNewCommentMovie() {
         List<Integer> IDs = commentMapper.getNewCommentMovieId();
         return movieMapper.getMovieByIDs(IDs);
     }
 
-    @Cacheable(key = "getMethodName()")
+    @Cacheable(cacheNames = "home",key = "'MyHighScoreMovie'",unless = "#result==null")
     public List<Movie> getMyHighScoreMovie() {
         List<Integer> IDs = commentMapper.getMyHighScoreMovieId();
         return movieMapper.getMovieByIDs(IDs);

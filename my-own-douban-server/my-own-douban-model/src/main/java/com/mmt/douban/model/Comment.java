@@ -1,8 +1,9 @@
 package com.mmt.douban.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Comment {
+public class Comment implements Serializable {
     private Integer id;
 
     private Integer mid;

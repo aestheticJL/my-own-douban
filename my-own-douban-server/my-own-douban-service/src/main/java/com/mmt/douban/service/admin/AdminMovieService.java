@@ -5,14 +5,13 @@ import com.mmt.douban.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Service
-@CacheConfig(cacheNames = "c1")
 public class AdminMovieService {
     @Autowired
     MovieMapper movieMapper;
@@ -30,7 +29,7 @@ public class AdminMovieService {
     MovieActorMapper movieActorMapper;
 
     @Transactional
-    @CacheEvict(key = "")
+    @CacheEvict(cacheNames = "home",allEntries = true)
     public boolean addMovieInf(Movie movie) {
         movieMapper.insertSelective(movie);
         List<Director> directors = movie.getDirectors();
@@ -55,6 +54,10 @@ public class AdminMovieService {
     }
 
     @Transactional
+    @Caching(evict = {
+            @CacheEvict(cacheNames = "home",allEntries = true),
+            @CacheEvict(cacheNames = "movie",key = "#id")
+    })
     public boolean deleteMovie(Integer id) {
         MovieActorExample movieActorExample = new MovieActorExample();
         movieActorExample.createCriteria().andMidEqualTo(id);

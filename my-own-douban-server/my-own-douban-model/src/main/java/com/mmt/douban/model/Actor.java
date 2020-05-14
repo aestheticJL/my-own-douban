@@ -1,6 +1,8 @@
 package com.mmt.douban.model;
 
-public class Actor {
+import java.io.Serializable;
+
+public class Actor implements Serializable {
     private Integer id;
 
     private String image;
