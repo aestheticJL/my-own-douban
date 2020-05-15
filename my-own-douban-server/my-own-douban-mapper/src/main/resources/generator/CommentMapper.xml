@@ -275,9 +275,9 @@
     select * from comment where mid=#{mid,jdbcType=INTEGER}
   </select>
     <select id="getNewCommentMovieId" resultType="java.lang.Integer">
-        select mid from comment order by createTime limit 10
+        select mid from comment order by createTime desc limit 10
     </select>
     <select id="getMyHighScoreMovieId" resultType="java.lang.Integer">
-        select mid from comment order by myScore limit 10
+        select mid from comment order by myScore desc limit 10
     </select>
 </mapper>

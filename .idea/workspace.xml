@@ -3,22 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5d24f941-5ca4-425a-8395-4122d4130ea1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/target/classes/com/mmt/douban/model/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/target/classes/com/mmt/douban/model/Actor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/target/classes/com/mmt/douban/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/target/classes/com/mmt/douban/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/target/classes/com/mmt/douban/model/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/target/classes/com/mmt/douban/model/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/target/classes/com/mmt/douban/model/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/target/classes/com/mmt/douban/model/Writer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminCommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/MovieMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/MovieMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/CommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/MovieMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/MovieMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/target/classes/generator/MovieMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/target/classes/generator/MovieMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/home/HomeMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/home/HomeMovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/target/classes/com/mmt/douban/service/admin/AdminCommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/target/classes/com/mmt/douban/service/admin/AdminCommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/target/classes/com/mmt/douban/service/admin/AdminMovieService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/target/classes/com/mmt/douban/service/home/HomeMovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/target/classes/com/mmt/douban/service/home/HomeMovieService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/target/classes/application-dev.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,32 +44,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminCommentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminCommentService.java">
+      <file leaf-file-name="HomeMovieService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/home/HomeMovieService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminMovieService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminMovieService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="559">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1311#1312#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application-dev.properties">
+      <file leaf-file-name="MovieMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/MovieMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="336">
+              <caret line="330" column="52" lean-forward="true" selection-start-line="330" selection-start-column="52" selection-end-line="330" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeMovieController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/java/com/mmt/douban/controller/homeController/HomeMovieController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding>
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,17 +122,14 @@
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/DirectorMapper.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/generator/ActorMapper.xml" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/CommentMapper.java" />
-        <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/CommentMapper.xml" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/generator/CommentMapper.xml" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/pom.xml" />
-        <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-commons/pom.xml" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/home/HomeCommentService.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-commons/src/main/java/com/mmt/douban/config/RestTemplateConfig.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/java/com/mmt/douban/DemoApplication.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/pom.xml" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Movie.java" />
-        <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/home/HomeMovieService.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Actor.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Comment.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Director.java" />
@@ -139,6 +138,11 @@
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminMovieService.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminCommentService.java" />
         <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/CommentMapper.xml" />
+        <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/MovieMapper.java" />
+        <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/home/HomeMovieService.java" />
+        <option value="$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/MovieMapper.xml" />
       </list>
     </option>
   </component>
@@ -202,31 +206,63 @@
               <item name="my-own-douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-douban" type="462c0819:PsiDirectoryNode" />
               <item name="my-own-douban-server" type="462c0819:PsiDirectoryNode" />
-              <item name="my-own-douban-web" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-own-douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-douban" type="462c0819:PsiDirectoryNode" />
               <item name="my-own-douban-server" type="462c0819:PsiDirectoryNode" />
-              <item name="my-own-douban-web" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-own-douban" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-douban" type="462c0819:PsiDirectoryNode" />
               <item name="my-own-douban-server" type="462c0819:PsiDirectoryNode" />
-              <item name="my-own-douban-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-own-douban" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-own-douban" type="462c0819:PsiDirectoryNode" />
-              <item name="my-own-douban-server" type="462c0819:PsiDirectoryNode" />
-              <item name="my-own-douban-web" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-own-douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-own-douban" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-server" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-own-douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-own-douban" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-server" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-own-douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-own-douban" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-server" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-own-douban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-own-douban" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-server" type="462c0819:PsiDirectoryNode" />
+              <item name="my-own-douban-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,17 +287,17 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-web\src\main\resources" />
-      <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-commons\src\main\resources" />
-      <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-mapper\src\main\resources" />
-      <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-mapper\src\main\resources\generator" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-mapper\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-web\src\main\resources" />
+      <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-commons\src\main\resources" />
+      <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-mapper\src\main\resources" />
+      <recent name="E:\学习\XM\my-own-douban\my-own-douban-server\my-own-douban-mapper\src\main\resources\generator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -375,7 +411,8 @@
       <workItem from="1589186577397" duration="615000" />
       <workItem from="1589261380470" duration="6816000" />
       <workItem from="1589293888868" duration="2279000" />
-      <workItem from="1589437158781" duration="12427000" />
+      <workItem from="1589437158781" duration="13547000" />
+      <workItem from="1589521144502" duration="2172000" />
     </task>
     <servers />
   </component>
@@ -385,7 +422,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37997000" />
+    <option name="totallyTimeSpent" value="41289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +448,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="right" id="Redis Explorer" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32905984" />
@@ -423,7 +460,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31383738" />
       <window_info anchor="right" id="Mybatis datasource" order="3" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952926" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42877492" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20844504" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="right" id="Bean Validation" order="3" />
@@ -471,6 +508,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/java/com/mmt/douban/controller/homeController/HomeMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -494,6 +538,8 @@
           <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -616,20 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/MovieMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6080">
-          <caret line="320" column="51" lean-forward="true" selection-start-line="320" selection-start-column="51" selection-end-line="320" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/CommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/java/com/mmt/douban/controller/homeController/HomeCommentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -675,41 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/java/com/mmt/douban/controller/homeController/HomeMovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/java/com/mmt/douban/controller/adminController/AdminMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/CommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -734,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Director.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -752,11 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/home/HomeMovieService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/ActorMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -784,24 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/MovieMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/java/com/mmt/douban/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminCommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -819,20 +784,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminMovieService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="168">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/resources/application-dev.properties">
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/admin/AdminCommentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="266">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-commons/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-model/src/main/java/com/mmt/douban/model/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="280" column="54" selection-start-line="280" selection-start-column="54" selection-end-line="280" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/CommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-web/src/main/java/com/mmt/douban/controller/homeController/HomeMovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/java/com/mmt/douban/mapper/MovieMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-service/src/main/java/com/mmt/douban/service/home/HomeMovieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-own-douban-server/my-own-douban-mapper/src/main/resources/generator/MovieMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="330" column="52" lean-forward="true" selection-start-line="330" selection-start-column="52" selection-end-line="330" selection-end-column="52" />
         </state>
       </provider>
     </entry>

@@ -36,4 +36,6 @@ public interface MovieMapper {
     List<Movie> getMovieByIDs(@Param("IDs") List<Integer> IDs);
 
     List<Movie> getHighScoreMovie();
+
+    List<Movie> getTypeMovie(@Param("type") String type);
 }

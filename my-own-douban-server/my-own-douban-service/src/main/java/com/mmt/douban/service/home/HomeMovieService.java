@@ -5,7 +5,6 @@ import com.mmt.douban.mapper.MovieMapper;
 import com.mmt.douban.model.Movie;
 import com.mmt.douban.model.MovieExample;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
@@ -18,14 +17,12 @@ public class HomeMovieService {
     @Autowired
     CommentMapper commentMapper;
 
-    @Cacheable(cacheNames = "home",key = "#type")
+    @Cacheable(cacheNames = "home",key = "#type",unless = "#result==null")
     public List<Movie> getMovieByType(String type) {
         if ("其他".equals(type)) {
             return movieMapper.getOtherMovie();
         } else {
-            MovieExample movieExample = new MovieExample();
-            movieExample.createCriteria().andCountriesLike("%" + type + "%");
-            return movieMapper.selectByExample(movieExample);
+            return movieMapper.getTypeMovie(type);
         }
     }
 
