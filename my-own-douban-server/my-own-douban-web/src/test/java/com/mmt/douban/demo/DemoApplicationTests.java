@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootTest
@@ -19,6 +20,10 @@ class DemoApplicationTests {
         ResponseEntity<String> results = restTemplate.exchange(url, HttpMethod.GET, null, String.class);
         String json = results.getBody();
         System.out.println(json);
+    }
+    @Test
+    public void getBC(){
+        System.out.println(new BCryptPasswordEncoder().encode("woshi258"));
     }
 
 }

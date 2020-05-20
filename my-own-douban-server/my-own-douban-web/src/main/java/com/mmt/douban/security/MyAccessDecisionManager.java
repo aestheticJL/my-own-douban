@@ -1,0 +1,45 @@
+package com.mmt.douban.security;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.access.AccessDecisionManager;
+import org.springframework.security.access.AccessDeniedException;
+import org.springframework.security.access.ConfigAttribute;
+import org.springframework.security.authentication.AnonymousAuthenticationToken;
+import org.springframework.security.authentication.InsufficientAuthenticationException;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
+
+import java.util.Collection;
+
+@Configuration
+public class MyAccessDecisionManager implements AccessDecisionManager {
+    @Override
+    public void decide(Authentication authentication, Object o, Collection<ConfigAttribute> collection) throws AccessDeniedException, InsufficientAuthenticationException {
+        for (ConfigAttribute configAttribute : collection) {
+            if (configAttribute.getAttribute().equals("ROLE_login")){
+                if (authentication instanceof AnonymousAuthenticationToken){
+                    throw new AccessDeniedException("未登录");
+                }else {
+                    return;
+                }
+            }
+            Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
+            for (GrantedAuthority authority : authorities) {
+                if (authority.getAuthority().equals(configAttribute.getAttribute())){
+                    return;
+                }
+            }
+        }
+        throw new AccessDeniedException("非法请求");
+    }
+
+    @Override
+    public boolean supports(ConfigAttribute configAttribute) {
+        return true;
+    }
+
+    @Override
+    public boolean supports(Class<?> aClass) {
+        return true;
+    }
+}

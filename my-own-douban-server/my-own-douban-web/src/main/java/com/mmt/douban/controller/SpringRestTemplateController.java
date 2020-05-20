@@ -14,7 +14,7 @@ public class SpringRestTemplateController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/testGetApi/{id}")
+    @GetMapping("/admin/getMovie/{id}")
     public String getJson(@PathVariable String id) {
         String url = "http://api.douban.com/v2/movie/subject/"+id+"?apikey=0df993c66c0c636e29ecbb5344252a4a";
         //String json =restTemplate.getForObject(url,Object.class);

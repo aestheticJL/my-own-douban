@@ -3,7 +3,6 @@ package com.mmt.douban.service.home;
 import com.mmt.douban.mapper.CommentMapper;
 import com.mmt.douban.mapper.MovieMapper;
 import com.mmt.douban.model.Movie;
-import com.mmt.douban.model.MovieExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
