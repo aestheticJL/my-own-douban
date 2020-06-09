@@ -1,4 +1,4 @@
-package com.mmt.douban.config;
+package com.mmt.douban.utils;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

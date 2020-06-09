@@ -1,4 +1,4 @@
-package com.mmt.douban.security;
+package com.mmt.douban.config.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mmt.douban.model.RespBean;
@@ -50,7 +50,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(WebSecurity web) throws Exception {
-        web.ignoring().antMatchers("/login");
+        web.ignoring()
+                .antMatchers("/login")
+                .antMatchers("/swagger-ui.html")
+                .antMatchers("/v2/**")
+                .antMatchers("/swagger-resources/**");
     }
 
     @Override

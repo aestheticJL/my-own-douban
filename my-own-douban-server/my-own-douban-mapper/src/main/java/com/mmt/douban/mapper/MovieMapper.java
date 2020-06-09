@@ -31,11 +31,11 @@ public interface MovieMapper {
 
     Movie getMovieAllInfById(Integer id);
 
-    List<Movie> getOtherMovie();
+    List<Movie> getTopTenOtherMovie();
 
     List<Movie> getMovieByIDs(@Param("IDs") List<Integer> IDs);
 
     List<Movie> getHighScoreMovie();
 
-    List<Movie> getTypeMovie(@Param("type") String type);
+    List<Movie> getTopTenTypeMovie(@Param("type") String type);
 }

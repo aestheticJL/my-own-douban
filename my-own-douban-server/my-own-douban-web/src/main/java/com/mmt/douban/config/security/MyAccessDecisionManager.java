@@ -1,4 +1,4 @@
-package com.mmt.douban.security;
+package com.mmt.douban.config.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.AccessDecisionManager;

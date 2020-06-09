@@ -315,7 +315,7 @@
             ON w.`id` = mw.`wid`
           WHERE m.`id` = #{id}
     </select>
-    <select id="getOtherMovie" resultMap="BaseResultMap">
+    <select id="getTopTenOtherMovie" resultMap="BaseResultMap">
         select * from movie where countries not like '%中国%' and countries not like '%日本%' and countries not like '%韩国%' order by score desc limit 10
     </select>
     <select id="getMovieByIDs" resultMap="BaseResultMap">
@@ -327,7 +327,7 @@
     <select id="getHighScoreMovie" resultMap="BaseResultMap">
         select * from movie order by score desc limit 10
     </select>
-    <select id="getTypeMovie" resultMap="BaseResultMap">
+    <select id="getTopTenTypeMovie" resultMap="BaseResultMap">
         select * from movie where countries like '%${type}%' order by score desc limit 10
     </select>
 </mapper>

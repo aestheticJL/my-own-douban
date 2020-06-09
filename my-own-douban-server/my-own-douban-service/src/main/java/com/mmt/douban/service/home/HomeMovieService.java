@@ -17,11 +17,11 @@ public class HomeMovieService {
     CommentMapper commentMapper;
 
     @Cacheable(cacheNames = "home",key = "#type",unless = "#result==null")
-    public List<Movie> getMovieByType(String type) {
+    public List<Movie> getTopTenMovieByType(String type) {
         if ("其他".equals(type)) {
-            return movieMapper.getOtherMovie();
+            return movieMapper.getTopTenOtherMovie();
         } else {
-            return movieMapper.getTypeMovie(type);
+            return movieMapper.getTopTenTypeMovie(type);
         }
     }
 
