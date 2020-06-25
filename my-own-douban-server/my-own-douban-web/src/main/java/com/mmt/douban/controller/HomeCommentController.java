@@ -1,7 +1,7 @@
-package com.mmt.douban.controller.homeController;
+package com.mmt.douban.controller;
 
 import com.mmt.douban.model.Comment;
-import com.mmt.douban.service.home.HomeCommentService;
+import com.mmt.douban.service.HomeCommentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

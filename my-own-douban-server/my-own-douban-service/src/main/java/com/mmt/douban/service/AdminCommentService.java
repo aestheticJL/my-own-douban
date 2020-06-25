@@ -1,4 +1,4 @@
-package com.mmt.douban.service.admin;
+package com.mmt.douban.service;
 
 import com.mmt.douban.mapper.CommentMapper;
 import com.mmt.douban.model.Comment;

@@ -1,4 +1,4 @@
-package com.mmt.douban.service.admin;
+package com.mmt.douban.service;
 
 import com.mmt.douban.mapper.*;
 import com.mmt.douban.model.*;
@@ -29,7 +29,7 @@ public class AdminMovieService {
     MovieActorMapper movieActorMapper;
 
     @Transactional
-    @CacheEvict(cacheNames = "home",allEntries = true)
+    @CacheEvict(cacheNames = "home", allEntries = true)
     public boolean addMovieInf(Movie movie) {
         movieMapper.insertSelective(movie);
         List<Director> directors = movie.getDirectors();
@@ -55,8 +55,8 @@ public class AdminMovieService {
 
     @Transactional
     @Caching(evict = {
-            @CacheEvict(cacheNames = "home",allEntries = true),
-            @CacheEvict(cacheNames = "movie",key = "#id")
+            @CacheEvict(cacheNames = "home", allEntries = true),
+            @CacheEvict(cacheNames = "movie", key = "#id")
     })
     public boolean deleteMovie(Integer id) {
         MovieActorExample movieActorExample = new MovieActorExample();
@@ -68,6 +68,9 @@ public class AdminMovieService {
         MovieDirectorExample movieDirectorExample = new MovieDirectorExample();
         movieDirectorExample.createCriteria().andMidEqualTo(id);
         movieDirectorMapper.deleteByExample(movieDirectorExample);
+//        movieActorMapper.deleteActorAndAssociated(id);
+//        movieWriterMapper.deleteWriterAndAssociated(id);
+//        movieDirectorMapper.deleteDirectorAndAssociated(id);
         movieMapper.deleteByPrimaryKey(id);
         return true;
     }

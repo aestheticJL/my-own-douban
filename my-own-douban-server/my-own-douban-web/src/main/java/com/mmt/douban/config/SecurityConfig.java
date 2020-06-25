@@ -1,4 +1,4 @@
-package com.mmt.douban.config.security;
+package com.mmt.douban.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mmt.douban.model.RespBean;

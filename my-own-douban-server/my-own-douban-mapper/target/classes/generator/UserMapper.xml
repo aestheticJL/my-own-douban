@@ -158,9 +158,6 @@
     <select id="loadUserByUsername" resultType="com.mmt.douban.model.User">
       select * from user where username = #{username}
     </select>
-  <select id="getUserRolesById" resultType="com.mmt.douban.model.Role">
-    SELECT r.* FROM user_role ur,role r WHERE ur.`rid` = r.`id` AND	ur.`uid` = #{id}
-  </select>
   <update id="updateByExampleSelective" parameterType="map">
     update user
     <set>
@@ -221,4 +218,8 @@
       userface = #{userface,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <select id="getUserRolesById" resultType="com.mmt.douban.model.Role">
+    SELECT r.* FROM user_role ur,role r WHERE ur.`rid` = r.`id` AND	ur.`uid` = #{id}
+  </select>
 </mapper>

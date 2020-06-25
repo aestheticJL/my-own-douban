@@ -1,8 +1,8 @@
-package com.mmt.douban.controller.adminController;
+package com.mmt.douban.controller;
 
 import com.mmt.douban.model.Movie;
 import com.mmt.douban.model.RespBean;
-import com.mmt.douban.service.admin.AdminMovieService;
+import com.mmt.douban.service.AdminMovieService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

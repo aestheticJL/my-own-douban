@@ -1,4 +1,4 @@
-package com.mmt.douban.config.security;
+package com.mmt.douban.config;
 
 import com.mmt.douban.model.Permission;
 import com.mmt.douban.model.Role;

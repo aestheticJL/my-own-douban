@@ -1,7 +1,7 @@
-package com.mmt.douban.controller.homeController;
+package com.mmt.douban.controller;
 
 import com.mmt.douban.model.Movie;
-import com.mmt.douban.service.home.HomeMovieService;
+import com.mmt.douban.service.HomeMovieService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
